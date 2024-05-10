@@ -1,0 +1,98 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #110d0d;
+  }
+  .logo{
+    padding: 5px 10px;
+  }
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0c0808;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      margin-top: 20px;
+    }
+  
+    .nav-links a {
+      margin: 10px 0;
+    }
+  }
+
+
+
+  
+.navbar-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #55e5f0;
+    color: #1a1010;
+  }
+
+  .navbar-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #140f0f;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-button:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .logout-button {
+    margin-left: auto; /* Push the logout button to the right */
+  }
+
+  /*  */
+
+  .nav-links{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+
+  
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .left-buttons, .right-buttons {
+      margin-top: 10px;
+    }
+  
+    .navbar-button {
+      margin-right: 10px;
+    }
+  }
+    
